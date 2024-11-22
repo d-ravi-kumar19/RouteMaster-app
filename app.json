@@ -2,7 +2,7 @@
   "expo": {
     "name": "RouteMaster",
     "slug": "RouteMaster",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -15,7 +15,16 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ravi_k.routemaster"
+      "package": "com.ravi_k.routemaster",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD6EpJeaV4GmZaMKjyEhKgCCkvT4HrPoFU"
+        }
+      }
     },
     "web": {
       "bundler": "metro",

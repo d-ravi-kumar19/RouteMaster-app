@@ -14,8 +14,6 @@ export default function About() {
       <Text style={styles.teamMember}>• Ravi Kumar</Text>
       <Text style={styles.teamMember}>• Yogesh</Text>
       <Text style={styles.teamMember}>• Sankeerthan</Text>
-      <Text style={styles.teamMember}>from AIML, OU</Text>
-
       <Text style={styles.note}>
         Thank you for using our app! We hope you find it useful and enjoyable.
       </Text>

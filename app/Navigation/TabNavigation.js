@@ -1,3 +1,5 @@
+// app/Navigation/TabNavigation.js
+
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import { Text } from 'react-native';

@@ -1,3 +1,5 @@
+// app/Services/googleMapService.js
+
 import Constants from 'expo-constants';
 
 const GOOGLE_API_KEY = Constants.expoConfig?.extra?.GOOGLE_API_KEY || "your_default_api_key";

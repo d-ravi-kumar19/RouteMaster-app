@@ -19,7 +19,7 @@ const SplashScreen = ({ onFinish }) => {
       setLoading(false);
       Animated.timing(progress, {
         toValue: 1,
-        duration: 1000,
+        duration: 3000,
         useNativeDriver: false,
       }).start(() => {
         onFinish();
@@ -35,7 +35,7 @@ const SplashScreen = ({ onFinish }) => {
       style={styles.container}
       resizeMode="cover" // Adjusts how the image should be resized
     >
-      <ActivityIndicator size="large" color="#0a0a0a" />
+      {/* <ActivityIndicator size="large" color="#0a0a0a" /> */}
       <Animated.View style={[styles.progressBar, { width: progress.interpolate({
           inputRange: [0, 1],
           outputRange: ['0%', '100%'],
